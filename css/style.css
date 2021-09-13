@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+head{
+    font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+    font-family: banny;
+    src: url("../fonts/Banny-Round.otf");
+    font-style: normal;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+.header{
+    background: url(../img/header-bg.jpg) no-repeat center / cover;
+}
+.header__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav{
+    width: 530px;
+    display: flex;
+    justify-content:space-around;
+}
+.header__img{
+    margin-top: 25px;
+}
+.header__nav{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: px;
+    margin-top: -50px;
+}
+.header__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
